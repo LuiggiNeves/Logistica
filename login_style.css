@@ -18,7 +18,7 @@ body{
 
 .nome{
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 1.5vh;
 }
 
 .login_base{
@@ -37,12 +37,11 @@ body{
     border-radius: 20px;
 
 
-    width: 400px;
-    height: 500px;
+    width: 250px;
+    height: 350px;
 }
 
 .login_base h1{
-    padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 20px;
     font-size: 3.5vh;
@@ -52,7 +51,7 @@ body{
 .LOGIN{
     text-align: center;
 
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 .info_nome h1{
@@ -60,9 +59,9 @@ body{
 }
 
 .info_nome input{
-    width: 90%;
+    width:200px;
     height: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
     text-indent: 10px;
 
@@ -76,11 +75,14 @@ body{
 }
 
 .info_senha input{
-    width: 90%;
+    width:200px;
     height: 20px;
+
+    text-indent: 10px;
 
     background-color:rgba(255, 255, 255, 0.137);
     border-radius: 10px;
+
 }
 .info_btn input:active{
     background-color: rgb(60, 60, 60);
@@ -92,14 +94,14 @@ body{
 
     transform: translate(-50%, -50%);
 
-    height: 50px;
-    width: 300px;
+    height: 30px;
+    width: 130px;
 
     border-radius: 50px;
 }
 
 .info_btn input{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .esq_senha{
