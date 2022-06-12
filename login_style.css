@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --fonte_padrao: 'Roboto', sans-serif;
+}
+
+*{
+    font-family: var(--fonte_padrao);
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(60, 60, 60);
+}
+
+.nome{
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.login_base{
+
+    background-color: rgba(255, 255, 255, 0.87);
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+
+
+    width: 400px;
+    height: 500px;
+}
+
+.login_base h1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 3.5vh;
+
+}
+
+.LOGIN{
+    text-align: center;
+
+    padding-bottom: 40px;
+}
+
+.info_nome h1{
+    font-size: 20px;
+}
+
+.info_nome input{
+    width: 90%;
+    height: 20px;
+    margin-bottom: 10%;
+
+    text-indent: 10px;
+
+    background-color:rgba(255, 255, 255, 0.137);
+    border-radius: 10px;
+
+}
+
+.info_senha h1{
+    font-size: 20px;
+}
+
+.info_senha input{
+    width: 90%;
+    height: 20px;
+
+    background-color:rgba(255, 255, 255, 0.137);
+    border-radius: 10px;
+}
+.info_btn input:active{
+    background-color: rgb(60, 60, 60);
+}
+
+.info_btn input{
+    margin-top: 20%;
+    margin-left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    height: 50px;
+    width: 300px;
+
+    border-radius: 50px;
+}
+
+.info_btn input{
+    font-size: 20px;
+}
+
+.esq_senha{
+    text-align: center;
+}
