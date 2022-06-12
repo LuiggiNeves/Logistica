@@ -43,7 +43,7 @@ body{
 
 .login_base h1{
     padding-bottom: 15px;
-    padding-left: 20px;
+
     font-size: 3.5vh;
 
 }
@@ -51,15 +51,20 @@ body{
 .LOGIN{
     text-align: center;
 
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
+
+.info_nome{
+    margin-bottom: 15px;
+}
+
 
 .info_nome h1{
     font-size: 20px;
 }
 
 .info_nome input{
-    width:200px;
+    width:250px;
     height: 20px;
     margin-bottom: 5%;
 
@@ -75,10 +80,11 @@ body{
 }
 
 .info_senha input{
-    width:200px;
+    width:250px;
     height: 20px;
 
     text-indent: 10px;
+
 
     background-color:rgba(255, 255, 255, 0.137);
     border-radius: 10px;
@@ -106,4 +112,9 @@ body{
 
 .esq_senha{
     text-align: center;
+    padding-top: 30px;
+
+
+
+    font-size: 15px;
 }
